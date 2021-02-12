@@ -1,7 +1,9 @@
 /*uso futuro */
 
+
 /* tabela de cores */
-:root{
+
+:root {
     --background: #32407B;
     --tituloHeader: #F2F2F2;
     --subtituloHeader: rgba(255, 255, 255, 0.65);
@@ -10,7 +12,7 @@
     --hover: #fdfcfcc2;
 }
 
-nav.navbar-transparente {
+nav.navbar-main {
     padding: 15px 0px;
     background: var(--background);
 }
@@ -67,48 +69,48 @@ p {
     border: 1px solid green;
 }
 
-.marcadorx h1{
+.marcadorx h1 {
     margin: 2px 0;
     font-size: 30px;
 }
 
-.marcadorx h2{
+.marcadorx h2 {
     font-size: 46px;
     font-weight: 900;
     line-height: 45px;
     margin: 15px 0;
 }
 
-.marcadorx p{
+.marcadorx p {
     color: var(--subtituloHeader);
     letter-spacing: 0.5px;
     margin: 10px 0 5px 0;
     width: 85%;
 }
 
-#text-body h1{
+#text-body h1 {
     color: var(--titulosBody);
     font-weight: 900;
     letter-spacing: 0.2px;
-
 }
 
-#text-body h1::before{
+#text-body h1::before {
     content: "";
     background: linear-gradient(90deg, #32407B 0%, rgba(70, 87, 166, 0.9) 49.97%, #4869C1 95%);
     width: 73.34px;
     height: 5px;
 }
 
-#text-body p{
+#text-body p {
     color: var(--subtitulosBody);
     margin-bottom: 30px;
 }
+
 .container {
     border: 1px solid gray;
 }
 
-#btn-orcamento{
+#btn-orcamento {
     width: 254px;
     height: 55px;
     display: flex;
@@ -120,7 +122,7 @@ p {
     font-weight: bold;
 }
 
-#btn-orcamento:hover{
+#btn-orcamento:hover {
     background-color: var(--hover);
     transition: all 1s;
 }
@@ -135,6 +137,6 @@ p {
     justify-content: center;
 }
 
-.btn-custom .fas{
+.btn-custom .fas {
     font-size: 18px;
 }
