@@ -1,8 +1,18 @@
 /*uso futuro */
 
+/* tabela de cores */
+:root{
+    --background: #32407B;
+    --tituloHeader: #F2F2F2;
+    --subtituloHeader: rgba(255, 255, 255, 0.65);
+    --titulosBody: #3C3C3C;
+    --subtitulosBody: rgba(101, 92, 86, 0.75);
+    --hover: #fdfcfcc2;
+}
+
 nav.navbar-transparente {
     padding: 15px 0px;
-    background: rgba(14, 6, 119, 0.6);
+    background: var(--background);
 }
 
 html,
@@ -13,7 +23,7 @@ body,
 }
 
 body {
-    background-color: #33407C;
+    background: var(--background);
     /*gradiente do fundo*/
     background-attachment: fixed;
     /*para fixar o fundo*/
@@ -57,10 +67,74 @@ p {
     border: 1px solid green;
 }
 
+.marcadorx h1{
+    margin: 2px 0;
+    font-size: 30px;
+}
+
+.marcadorx h2{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 45px;
+    margin: 15px 0;
+}
+
+.marcadorx p{
+    color: var(--subtituloHeader);
+    letter-spacing: 0.5px;
+    margin: 10px 0 5px 0;
+    width: 85%;
+}
+
+#text-body h1{
+    color: var(--titulosBody);
+    font-weight: 900;
+    letter-spacing: 0.2px;
+
+}
+
+#text-body h1::before{
+    content: "";
+    background: linear-gradient(90deg, #32407B 0%, rgba(70, 87, 166, 0.9) 49.97%, #4869C1 95%);
+    width: 73.34px;
+    height: 5px;
+}
+
+#text-body p{
+    color: var(--subtitulosBody);
+    margin-bottom: 30px;
+}
 .container {
     border: 1px solid gray;
 }
 
+#btn-orcamento{
+    width: 254px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#btn-orcamento:hover{
+    background-color: var(--hover);
+    transition: all 1s;
+}
+
 .btn-custom {
-    background-color: #33407C;
+    background: var(--background);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom .fas{
+    font-size: 18px;
 }
