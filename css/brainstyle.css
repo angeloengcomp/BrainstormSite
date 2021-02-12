@@ -53,20 +53,8 @@ p {
     color: white;
 }
 
-#titulos {
-    border: 1px solid red;
-}
-
 #conteudo p {
     color: black;
-}
-
-.marcador {
-    border: 1px solid red;
-}
-
-.marcadorx {
-    border: 1px solid green;
 }
 
 .marcadorx h1 {
@@ -104,10 +92,6 @@ p {
 #text-body p {
     color: var(--subtitulosBody);
     margin-bottom: 30px;
-}
-
-.container {
-    border: 1px solid gray;
 }
 
 #btn-orcamento {
