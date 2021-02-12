@@ -1,0 +1,66 @@
+/*uso futuro */
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(14, 6, 119, 0.6);
+}
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #33407C;
+    /*gradiente do fundo*/
+    background-attachment: fixed;
+    /*para fixar o fundo*/
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*Menu Cores*/
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.capa {
+    text-align: center;
+}
+
+#home h1,
+h2,
+p {
+    color: white;
+}
+
+#titulos {
+    border: 1px solid red;
+}
+
+#conteudo p {
+    color: black;
+}
+
+.marcador {
+    border: 1px solid red;
+}
+
+.marcadorx {
+    border: 1px solid green;
+}
+
+.container {
+    border: 1px solid gray;
+}
+
+.btn-custom {
+    background-color: #33407C;
+}
