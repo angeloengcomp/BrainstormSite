@@ -137,6 +137,25 @@ p {
     justify-content: center;
 }
 
+.btn-custom2 {
+    background: var(--background);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-custom .fas {
     font-size: 18px;
+}
+
+.btn-custom2 .fas {
+    font-size: 22px;
+}
+
+#conteudo2 h2,
+p {
+    color: black;
 }
