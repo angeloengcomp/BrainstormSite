@@ -132,6 +132,26 @@ p {
     justify-content: center;
 }
 
+.btn-custom3 {
+    background: var(--background);
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom3:hover {
+    background: gray;
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-custom .fas {
     font-size: 18px;
 }
@@ -140,7 +160,18 @@ p {
     font-size: 22px;
 }
 
+.btn-custom3 .fas {
+    font-size: 32px;
+}
+
 #conteudo2 h2,
 p {
     color: black;
+}
+
+.btn-card {
+    border: 2px solid 32407B;
+    width: 120px;
+    height: 120px;
+    display: flex;
 }
