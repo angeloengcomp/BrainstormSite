@@ -1,0 +1,266 @@
+/*uso futuro */
+
+
+/* tabela de cores */
+
+:root {
+    --background: #32407B;
+    --tituloHeader: #F2F2F2;
+    --subtituloHeader: rgba(255, 255, 255, 0.65);
+    --titulosBody: #3C3C3C;
+    --subtitulosBody: rgba(101, 92, 86, 0.75);
+    --hover: #fdfcfcc2;
+}
+
+nav.navbar-main {
+    padding: 15px 0px;
+    background: var(--background);
+}
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--background);
+    /*gradiente do fundo*/
+    background-attachment: fixed;
+    /*para fixar o fundo*/
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*Menu Cores*/
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.capa {
+    text-align: center;
+}
+
+#home h1,
+h2,
+p {
+    color: white;
+}
+
+#conteudo p {
+    color: black;
+}
+
+.marcadorx h1 {
+    margin: 2px 0;
+    font-size: 30px;
+}
+
+.marcadorx h2 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 45px;
+    margin: 15px 0;
+}
+
+.marcadorx p {
+    color: var(--subtituloHeader);
+    letter-spacing: 0.5px;
+    margin: 10px 0 5px 0;
+    width: 85%;
+}
+
+#text-body h1 {
+    color: var(--titulosBody);
+    font-weight: 900;
+    letter-spacing: 0.2px;
+}
+
+#text-body h1::before {
+    content: "";
+    background: linear-gradient(90deg, #32407B 0%, rgba(70, 87, 166, 0.9) 49.97%, #4869C1 95%);
+    width: 73.34px;
+    height: 5px;
+}
+
+#text-body p {
+    color: var(--subtitulosBody);
+    margin-bottom: 30px;
+}
+
+#btn-orcamento {
+    width: 254px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 2px 5px 8px #888888;
+}
+
+#btn-orcamento:hover {
+    background-color: var(--hover);
+    transition: all 1s;
+}
+
+.btn-custom {
+    background: var(--background);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom2 {
+    background: var(--background);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom3 {
+    background: var(--background);
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom3:hover {
+    background: gray;
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom .fas {
+    font-size: 18px;
+}
+
+.btn-custom2 .fas {
+    font-size: 22px;
+}
+
+.btn-custom3 .fas {
+    font-size: 32px;
+}
+
+#conteudo2 h2,
+p {
+    color: black;
+}
+
+.btn-card {
+    border: 2px solid 32407B;
+    width: 120px;
+    height: 120px;
+    display: flex;
+}
+
+.foto {
+    position: relative;
+    height: 100px;
+    top: -50px;
+    border-radius: 100px;
+    z-index: 99;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.feedback {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px 20px #888888;
+    border-radius: 5px;
+    
+}
+
+.foto-container {
+    display: flex;
+    align-items: center;
+    padding-top: 0px !important; 
+    position: relative;  
+    overflow: visible;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#feedback-container{
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.top {
+    padding-top: 0px !important;
+    overflow: visible;
+}
+
+.input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    justify-content: start !important;
+    line-height: auto;
+    resize: none;
+}
+
+textarea{
+    height: 100px;
+}
+
+.submit{
+    background: #32407B;
+    width: 35%;
+    color: white;
+    border-radius: 3px;
+}
+
+.baseboard{
+    display: flex;
+    background: #32407B;
+    justify-content: center;
+    color: white;
+    padding-top: 35px;
+    font-size: 14px;
+}
+
+a{
+    color: white;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+p{
+    padding: 15px;
+}
+
