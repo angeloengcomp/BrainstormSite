@@ -175,3 +175,92 @@ p {
     height: 120px;
     display: flex;
 }
+
+.foto {
+    position: relative;
+    height: 100px;
+    top: -50px;
+    border-radius: 100px;
+    z-index: 99;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.feedback {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px 20px #888888;
+    border-radius: 5px;
+    
+}
+
+.foto-container {
+    display: flex;
+    align-items: center;
+    padding-top: 0px !important; 
+    position: relative;  
+    overflow: visible;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#feedback-container{
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.top {
+    padding-top: 0px !important;
+    overflow: visible;
+}
+
+.input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    justify-content: start !important;
+    line-height: auto;
+    resize: none;
+}
+
+textarea{
+    height: 100px;
+}
+
+.submit{
+    background: #32407B;
+    width: 35%;
+    color: white;
+    border-radius: 3px;
+}
+
+.baseboard{
+    display: flex;
+    background: #32407B;
+    justify-content: center;
+    color: white;
+    padding-top: 35px;
+    font-size: 14px;
+}
+
+a{
+    color: white;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+p{
+    padding: 15px;
+}
+
