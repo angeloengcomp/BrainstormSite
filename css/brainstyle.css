@@ -194,8 +194,10 @@ p {
     margin-right: auto;
     box-shadow: 3px 5px 20px #888888;
     border-radius: 5px;
-    
+    height: 380px;
+   
 }
+
 
 .foto-container {
     display: flex;
@@ -223,23 +225,51 @@ margin-right: auto;
 }
 
 .input {
-    width: 80%;
-    border: none;
+
+    width: 360px;
+    height: 55px;
     border-bottom: 1px solid black;
     justify-content: start !important;
     line-height: auto;
     resize: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 2px 6px 4px rgba(226, 245, 244, 0.25), 0px 4px 4px rgba(136, 133, 133, 0.15);
+    border-radius: 5px;
+    padding: 3px 0 0 10px;
 }
 
 textarea{
-    height: 100px;
+    width: 360px;
+    padding: 10px 0 0 10px;
+    height: 200px !important;
+  
+}
+
+.img-email-sent{
+    margin-left: 15px;
 }
 
 .submit{
-    background: #32407B;
+    background: var(--background);
     width: 35%;
     color: white;
     border-radius: 3px;
+    width: 207px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 2px 5px 8px #a1b1f0;
+}
+
+.submit:hover{
+    background-color: #1b2b55;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s; 
 }
 
 .baseboard{
@@ -251,8 +281,44 @@ textarea{
     font-size: 14px;
 }
 
+
+.container-social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-social-media{
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-social-media i{
+    color: var(--background);
+    font-size: 18px;
+}
+
+.btn-social-media:hover{
+    background-color: var(--hover);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+hr{
+    color: white;
+    background-color: white;
+    opacity: 0.2;
+    margin-top: 55px;
+}
+
 a{
     color: white;
+    text-decoration: none !important;
 }
 
 .icon{
