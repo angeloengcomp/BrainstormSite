@@ -12,9 +12,15 @@
     --hover: #fdfcfcc2;
 }
 
-nav.navbar-main {
-    padding: 15px 0px;
+nav{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0;
+}
+
+nav.navbar-main {    
     background: var(--background);
+    
 }
 
 html,
@@ -26,11 +32,11 @@ body,
 
 body {
     background: var(--background);
-    /*gradiente do fundo*/
-    background-attachment: fixed;
-    /*para fixar o fundo*/
+    background-attachment: fixed;    
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 
 
 /*Menu Cores*/

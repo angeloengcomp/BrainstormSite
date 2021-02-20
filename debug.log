@@ -20,3 +20,7 @@
 [0213/111340.457:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Acesso negado. (0x5)
 [0216/185949.217:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0216/185949.229:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Acesso negado. (0x5)
+[0219/224813.633:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0219/224813.635:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Acesso negado. (0x5)
+[0220/011250.142:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0220/011250.143:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Acesso negado. (0x5)
