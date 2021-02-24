@@ -27,7 +27,8 @@ body,
 }
 
 body {
-    background: var(--background);
+    background: url(../img/fundo.png);
+    
     background-attachment: fixed;    
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -273,10 +274,12 @@ textarea{
     background-color: #1b2b55;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s; 
 }
+#rodape{
+    background: #32407B;
+}
 
 .baseboard{
-    display: flex;
-    background: #32407B;
+    display: flex; 
     justify-content: center;
     color: white;
     padding-top: 35px;
