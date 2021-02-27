@@ -14,9 +14,8 @@
 
 
 
-nav.navbar-main {    
-    background: var(--background);
-    
+.navbar-main {    
+    background: var(--background);   
     
 }
 
