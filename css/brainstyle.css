@@ -220,7 +220,7 @@ p {
 
 .containerc .card .face.face1{
     position: relative;
-    background: var(--background);
+    background: var(--background) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,14 +229,16 @@ p {
 }
 
 .containerc .card:hover .face.face1{
-    background: yellow;
+    background: #4068cc;    
     transform: translateY(0);
 }
 
 .containerc .card .face.face1 .content{
-    opacity: 0.2;
+    /*opacity: 0.2;*/ 
     transition: 0.5s;
+    
 }
+
 
 .containerc .card:hover .face.face1 .content{
     opacity: 1;
